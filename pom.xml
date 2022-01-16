@@ -2,10 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>log4j</groupId>
   <artifactId>log4j</artifactId>
-  <packaging>bundle</packaging>
   <name>Apache Log4j</name>
   <version>1.2.17</version>
-  <description>Apache Log4j 1.2</description>
 
   <dependencies>
     <dependency>
@@ -18,7 +16,9 @@
       <groupId>org.apache.openejb</groupId>
       <artifactId>javaee-api</artifactId>
       <version>5.0-2</version>
+      <!--type默认值为jar,另外类型有pom,一般父项目类型为pom-->
       <type>jar</type>
+      <!--compile是默认的:编译、测试、运行阶段都需要;provided 运行阶段不需要-->
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -30,13 +30,16 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.2</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.geronimo.specs</groupId>
       <artifactId>geronimo-jms_1.1_spec</artifactId>
       <version>1.0</version>
+      <!--依赖包可选，不会北传递-->
+      <!--项目A依赖项目B;项目B依赖 logback、log4j、appche commons log，但实际项目中我们只会用一个日志框架；
+      所以B项目只要把依赖的logback、log4j、appche commons log 设置为true就好-->
       <optional>true</optional>
     </dependency>
  </dependencies>

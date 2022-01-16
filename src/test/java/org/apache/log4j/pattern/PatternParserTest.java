@@ -33,6 +33,11 @@ import org.apache.log4j.Layout;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggingEvent;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 
 /**
@@ -41,12 +46,12 @@ import org.apache.log4j.spi.LoggingEvent;
    class tests PatternParser via the EnhancedPatternLayout class which
    uses it.
  */
-public class PatternParserTest extends TestCase {
-  private final Logger logger = Logger.getLogger("org.foobar");
-  private final LoggingEvent event;
+public class PatternParserTest {
+  private Logger logger = Logger.getLogger("org.foobar");
+  private LoggingEvent event;
 
-  public PatternParserTest(String name) {
-    super(name);
+  @Before
+  public void setUp() {
     event = new LoggingEvent("org.apache.log4j.Logger",
             logger, Level.INFO, "msg 1", null);
   }
@@ -73,7 +78,8 @@ public class PatternParserTest extends TestCase {
     return buf.toString();
   }
 
-  public void testNewWord() throws Exception {
+  @Test
+  public void newWordTest() throws Exception {
     HashMap ruleRegistry = new HashMap(5);
     ruleRegistry.put("z343", Num343PatternConverter.class.getName());
     String result = convert("%z343", ruleRegistry, event);

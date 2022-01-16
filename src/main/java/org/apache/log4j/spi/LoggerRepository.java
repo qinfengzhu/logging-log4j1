@@ -29,7 +29,7 @@ import org.apache.log4j.Logger;
    <code>Loggers</code>. The relation between loggers in a repository
    depends on the repository but typically loggers are arranged in a
    named hierarchy.
-
+   处理Logger日志直接的关系,Logger名称按照层次结构来命名
    <p>In addition to the creational methods, a
    <code>LoggerRepository</code> can be queried for existing loggers,
    can act as a point of registry for events related to loggers.

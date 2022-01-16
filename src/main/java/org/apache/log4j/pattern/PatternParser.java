@@ -1,20 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package org.apache.log4j.pattern;
 
 import org.apache.log4j.helpers.Loader;
@@ -27,23 +10,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-// Contributors:   Nelson Minar <(nelson@monkey.org>
-//                 Igor E. Poteryaev <jah@mail.ru>
-//                 Reinhard Deschler <reinhard.deschler@web.de>
-
 /**
  * Most of the work of the {@link org.apache.log4j.EnhancedPatternLayout} class
  * is delegated to the PatternParser class.
  * <p>It is this class that parses conversion patterns and creates
  * a chained list of {@link PatternConverter PatternConverters}.
  *
- * @author James P. Cakalic
- * @author Ceki G&uuml;lc&uuml;
- * @author Anders Kristensen
- * @author Paul Smith
- * @author Curt Arnold
- *
+ * 日志信息格式解析器
 */
 public final class PatternParser {
   /**
@@ -89,49 +62,65 @@ public final class PatternParser {
   static {
     // We set the global rules in the static initializer of PatternParser class
     Map rules = new HashMap(17);
+    //1. 日志名称
     rules.put("c", LoggerPatternConverter.class);
     rules.put("logger", LoggerPatternConverter.class);
 
+    //2. 类名称
     rules.put("C", ClassNamePatternConverter.class);
     rules.put("class", ClassNamePatternConverter.class);
 
+    //3. 日期
     rules.put("d", DatePatternConverter.class);
     rules.put("date", DatePatternConverter.class);
 
+    //4. 文件位置
     rules.put("F", FileLocationPatternConverter.class);
     rules.put("file", FileLocationPatternConverter.class);
 
+    //5. 日志记录位置
     rules.put("l", FullLocationPatternConverter.class);
 
+    //6. 换行
     rules.put("L", LineLocationPatternConverter.class);
     rules.put("line", LineLocationPatternConverter.class);
 
+    //7. 记录信息
     rules.put("m", MessagePatternConverter.class);
     rules.put("message", MessagePatternConverter.class);
 
+    //8. 行分割符
     rules.put("n", LineSeparatorPatternConverter.class);
 
+    //9. 方法名称
     rules.put("M", MethodLocationPatternConverter.class);
     rules.put("method", MethodLocationPatternConverter.class);
 
+    //10. 日志信息记录等级
     rules.put("p", LevelPatternConverter.class);
     rules.put("level", LevelPatternConverter.class);
 
+    //11. 相对时间
     rules.put("r", RelativeTimePatternConverter.class);
     rules.put("relative", RelativeTimePatternConverter.class);
 
+    //12. 线程
     rules.put("t", ThreadPatternConverter.class);
     rules.put("thread", ThreadPatternConverter.class);
 
+    //13.
     rules.put("x", NDCPatternConverter.class);
     rules.put("ndc", NDCPatternConverter.class);
 
+    //14.
     rules.put("X", PropertiesPatternConverter.class);
     rules.put("properties", PropertiesPatternConverter.class);
 
+    //15. 序列号
     rules.put("sn", SequenceNumberPatternConverter.class);
     rules.put("sequenceNumber", SequenceNumberPatternConverter.class);
 
+    //16. 异常
     rules.put("throwable", ThrowableInformationPatternConverter.class);
     PATTERN_LAYOUT_RULES = new ReadOnlyMap(rules);
 

@@ -35,11 +35,6 @@ import org.apache.log4j.NDC;
 import org.apache.log4j.Priority;
 import org.apache.log4j.helpers.Loader;
 import org.apache.log4j.helpers.LogLog;
-
-// Contributors:   Nelson Minar <nelson@monkey.org>
-//                 Wolf Siberski
-//                 Anders Kristensen <akristensen@dynamicsoft.com>
-
 /**
    The internal representation of logging events. When an affirmative
    decision is made to log then a <code>LoggingEvent</code> instance
@@ -47,16 +42,12 @@ import org.apache.log4j.helpers.LogLog;
    components.
 
    <p>This class is of concern to those wishing to extend log4j.
-
-   @author Ceki G&uuml;lc&uuml;
-   @author James P. Cakalic
-
-   @since 0.8.2 */
+ */
 public class LoggingEvent implements java.io.Serializable {
 
   private static long startTime = System.currentTimeMillis();
 
-  /** Fully qualified name of the calling category class. */
+  /*transient不需要序列化*/
   transient public final String fqnOfCategoryClass;
 
   /** 
