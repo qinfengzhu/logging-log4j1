@@ -112,7 +112,7 @@ public final class PatternParser {
     rules.put("x", NDCPatternConverter.class);
     rules.put("ndc", NDCPatternConverter.class);
 
-    //14.
+    //14. 属性
     rules.put("X", PropertiesPatternConverter.class);
     rules.put("properties", PropertiesPatternConverter.class);
 

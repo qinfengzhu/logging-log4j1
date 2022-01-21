@@ -19,83 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b33bd8-9159-4769-978f-3c29b092ae97" name="Default Changelist" comment="[modify] 调整不必要的内容，方便阅读源码">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/READEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_2.xml" beforeDir="false" />
+    <list default="true" id="f5b33bd8-9159-4769-978f-3c29b092ae97" name="Default Changelist" comment="[modify] 添加代码注释，方便阅读">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j.iml" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/AppenderSkeleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/AppenderSkeleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/CategoryKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/CategoryKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/ConsoleAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/ConsoleAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/DefaultCategoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/DefaultCategoryFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/FileAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/FileAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Hierarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Hierarchy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Layout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Layout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/LogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/PatternLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/PatternLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Priority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/ProvisionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/ProvisionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/WriterAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/WriterAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/chainsaw/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/config/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/helpers/AppenderAttachableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/helpers/AppenderAttachableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/helpers/OptionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/helpers/OptionConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/helpers/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/jdbc/JDBCAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/jdbc/JDBCAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/jdbc/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/jmx/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/net/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/nt/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/DefaultRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/DefaultRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/ObjectRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/ObjectRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/RendererMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/RendererMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/jms/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/or/sax/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/ClassNamePatternConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/ClassNamePatternConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/FormattingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/FormattingInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/LoggerPatternConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/LoggerPatternConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/LoggingEventPatternConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/LoggingEventPatternConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/NamePatternConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/NamePatternConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/PatternConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/PatternConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/NDC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/NDC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/NDCPatternConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/NDCPatternConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/PatternParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/PatternParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/pattern/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/AppenderAttachable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/AppenderAttachable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/DefaultRepositorySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/DefaultRepositorySelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/HierarchyEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/HierarchyEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/LoggerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/LoggerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/LoggingEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/LoggingEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/NOPLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/NOPLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/NOPLoggerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/NOPLoggerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/OptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/OptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/RepositorySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/spi/RepositorySelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/varia/StringMatchFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/varia/StringMatchFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/xml/DOMConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/xml/DOMConfigurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/xml/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/apache/log4j/CoreTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/apache/log4j/CoreTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/apache/log4j/pattern/PatternParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/apache/log4j/pattern/PatternParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/L7D_en_US.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/L7D_fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/L7D_fr_CH.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestLogSFPatterns.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/TestLogMFPatterns.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/TestLogSFPatterns.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/rewrite/map.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/rewrite/map.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/rewrite/property.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/rewrite/property.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/rewrite/reflection.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/apache/log4j/rewrite/reflection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/varia/LevelRangeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/varia/LevelRangeFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642218059450</updated>
-      <workItem from="1642218075778" duration="48418000" />
+      <workItem from="1642218075778" duration="51349000" />
     </task>
     <task id="LOCAL-00001" summary="[modify] 调整不必要的内容，方便阅读源码">
       <created>1642219245681</created>
@@ -204,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642219255430</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[modify] 添加代码注释，方便阅读">
+      <created>1642348172342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642348172342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[modify] 调整不必要的内容，方便阅读源码" />
-    <option name="LAST_COMMIT_MESSAGE" value="[modify] 调整不必要的内容，方便阅读源码" />
+    <MESSAGE value="[modify] 添加代码注释，方便阅读" />
+    <option name="LAST_COMMIT_MESSAGE" value="[modify] 添加代码注释，方便阅读" />
   </component>
   <component name="WindowStateProjectService">
     <state x="658" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642218256877">
@@ -271,6 +209,10 @@
     </state>
     <state x="359" y="101" key="SettingsEditor/1920.-13.1920.962/0.25.1920.1055@0.25.1920.1055" timestamp="1642218100729" />
     <state x="2279" y="-13" key="SettingsEditor/1920.-13.1920.962/0.25.1920.1055@1920.-13.1920.962" timestamp="1642219083882" />
+    <state x="2380" y="142" key="Vcs.Push.Dialog.v2" timestamp="1642348233079">
+      <screen x="1920" y="-13" width="1920" height="962" />
+    </state>
+    <state x="2380" y="142" key="Vcs.Push.Dialog.v2/1920.-13.1920.962/0.25.1920.1055@1920.-13.1920.962" timestamp="1642348233079" />
     <state x="2514" y="181" width="734" height="574" key="find.popup" timestamp="1642253120599">
       <screen x="1920" y="-13" width="1920" height="962" />
     </state>
